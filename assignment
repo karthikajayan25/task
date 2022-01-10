@@ -1,0 +1,14 @@
+firstname= input()
+lastname = input()
+mobnum=input()
+if(len(mobnum)==10 and mobnum.isdigit()==True):
+  emailid=input()
+  if(emailid.endswith("@gmail.com")):
+    print(firstname.upper(),lastname.upper())
+    print(mobnum)
+    print(emailid)
+  else:
+    print("invalid email id")
+else:
+  print("invalid mobile number")
+
